@@ -1,7 +1,7 @@
 #define OPEN 1
 #define CLOSE 0
 
-int waterTime = 6000;//ammount of time that the valve is open for each RING in ms, the time between two RINGs is 5000ms so it's recommended to keep this value above 5000ms
+int waterTime = 6000;//amount of time that the valve is open for each RING in ms, the time between two RINGs is 5000ms so it's recommended to keep this value above 5000ms
 long closeTime = 0; //the time on which the valve closes, this value will be changed when someone calls.
 
 String inputString = "";         // a string to hold incoming data
